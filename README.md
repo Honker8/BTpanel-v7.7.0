@@ -1,5 +1,13 @@
 # btpanel-v7.7.0
 btpanel-v7.7.0-backup  官方原版v7.7.0版本面板备份
+**Centos7部分安装会出现下载失败**
+可通过下载阿里云yum源配置
+
+ 命令   wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo
+
+然后重建缓存   yum clean all
+               yum makecache
+
 
 **Centos/Ubuntu/Debian安装命令 独立运行环境（py3.7）**
 
