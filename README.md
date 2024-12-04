@@ -5,8 +5,9 @@ btpanel-v7.7.0-backup  官方原版v7.7.0版本面板备份
 
  命令   wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo
 
-然后重建缓存   yum clean all
-               yum makecache
+然后重建缓存   
+命令1：yum clean all
+命令2：yum makecache
 
 
 **Centos/Ubuntu/Debian安装命令 独立运行环境（py3.7）**
